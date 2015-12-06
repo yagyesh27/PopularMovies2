@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.myappsworld.popularmovies.DetailActivityFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            style="@style/desc_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+             <LinearLayout
+
+                 android:orientation="horizontal"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+
+                 android:layout_weight="3">
+
+
+                 <ImageView
+                       android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageView" />
+
+
+
+
+
+
+             </LinearLayout>
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="3">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/favbutton"
+                android:layout_marginLeft="50dp"
+                />
+
+        </LinearLayout>
+            <LinearLayout
+                style="@style/desc_layout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    style="@style/text.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_label"
+                    android:id="@+id/title_title" />
+                <TextView
+                    style="@style/text.content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/title_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/desc_layout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/text.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/release_date_label"
+                    android:id="@+id/release_date_title"
+                    />
+                <TextView
+                    style="@style/text.content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/release_date_content"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/desc_layout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/text.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vote_avg_label"
+                    android:id="@+id/vote_avg_title" />
+                <TextView
+                    style="@style/text.content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/vote_avg_content" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/desc_layout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    style="@style/text.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plot_synopsis_label"
+                    android:id="@+id/plot_synopsis_title" />
+                <TextView
+                    style="@style/text.content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/plot_synopsis_content" />
+
+
+            </LinearLayout>
+        <LinearLayout
+            style="@style/desc_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <TextView
+                style="@style/text.title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trailers_label"
+                android:id="@+id/trailars_title" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/desc_layout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/no_trailor_msg"
+                        android:text="No Trailer Available"/>
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:id="@+id/trailer_list"
+                        android:layout_marginBottom="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/desc_layout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    style="@style/text.title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reviews_label"
+                    android:id="@+id/reviews_title" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/reviews_cont"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="api_key"></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_label">TITLE : </string>
+    <string name="release_date_label">RELEASE DATE :</string>
+    <string name="vote_avg_label">VOTE AVERAGE :</string>
+    <string name="plot_synopsis_label">PLOT SYNOPSIS :</string>
+    <string name="trailers_label">TRAILERS :</string>
+    <string name="reviews_label">REVIEWS :</string>
+    <string name="menu_most_popular">Most Popular</string>
+    <string name="menu_highest_rated">Highes Rated</string>
+    <string name="menu_favourites">Favourites</string>
+</resources>

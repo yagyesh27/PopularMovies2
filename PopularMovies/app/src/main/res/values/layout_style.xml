@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="desc_layout">
+
+        <item name="android:layout_marginTop">5dp</item>
+
+    </style>
+    <style name="text">
+
+        <item name="android:textSize">15dp</item>
+
+    </style>
+    <style name="text.title">
+        <item name="android:textColor">#2f4fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text.content">
+        <item name="android:textColor">#28397e</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>
